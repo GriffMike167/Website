@@ -3,25 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
-body {
-    background-color: #d9dcd6;
-}
-
+/* moved like classes around to fall in line with the order of the page */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 .header div {
@@ -41,6 +28,25 @@ body {
     margin-left: 25px;
 }
 
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* combined the three h3 elements */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,7 +56,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -69,13 +75,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,15 +92,11 @@ p {
     background-color: #2589bd;
 }
 /* combined the three benefit elements */
-.benefit {
+/* made benefit a sub id*/
+#benefit {
     margin-bottom: 32px;
     color: #ffffff;
 
-}
-/* combined the three benefit elements */
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 .benefit-lead img {
@@ -103,7 +105,8 @@ h3 {
     max-width: 150px;
 }
 /* combined the three benefit elements */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* simplified the terms */
+.optimization, .management, .marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -114,11 +117,6 @@ h3 {
 
 img  {
     max-height: 200px;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
